@@ -32,7 +32,8 @@
 *  透過enter可以開始輸入以及確認輸入
 *  完成輸入後選到LOGIN的地方按enter可以開始登入
 *  顯示範例：
-![](https://i.imgur.com/dhiM50p.png)
+![](https://i.imgur.com/TuJsSI7.png)
+
 
 *  選擇LOGOUT可以登出帳號
 *  選擇EXIT可以結束程式
