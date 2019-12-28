@@ -1,5 +1,5 @@
 # Computer Networks Programming Assignment
-## CLient
+## Client
 1. 執行環境：Ubuntu(Linux) 18.x
 > $ ./client
 > 
