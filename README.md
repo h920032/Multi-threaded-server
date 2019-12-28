@@ -1,5 +1,5 @@
 # Computer Networks Programming Assignment
-##CLient
+## CLient
 1. 執行環境：Ubuntu(Linux) 18.x
 > $ ./client
 > 
@@ -40,7 +40,7 @@
 
 ---
 
-##Server
+## Server
 
 1. 執行環境：Ubuntu(Linux) 18.x
 > $ ./server <port_num>
