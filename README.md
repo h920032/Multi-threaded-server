@@ -1,77 +1,73 @@
-# Exeprimental Multi Threaded Server in C++
+# Experimental Multi Threaded Server in C++
 2019 Computer Networks Programming Assignment
 ## Client
-1. 執行環境：Ubuntu(Linux) 18.x
+1. Execution environment: Ubuntu (Linux) 18.x
 > $ ./client
 > 
-2. 程式語言：c++
-3. 需求檔案：client 執行檔
-4. 編譯方式：
-*  先確認當前目錄有：main.cpp、client.cpp、client.h、ui.cpp、ui.h、Makefile這六個檔案
-*  確認環境位於Ubuntu(Linux) 18.x下
-*  執行：
+2. Programming language: c++
+3. Required files: client executable file
+4. Compilation method:
+  *  First, make sure that the current directory contains: main.cpp, client.cpp, client.h, ui.cpp, ui.h, Makefile these six files
+  *  Ensure the environment is in Ubuntu (Linux) 18.x
+  *  Execute:
 > $ make all
 >
 ![](https://i.imgur.com/UYXbobk.png)
 
 
-
-5. 執行過程：
-*  執行：
+5. Execution process:
+  *  Execute: 
 > $ ./client
 >
 ![](https://i.imgur.com/rZjxXVf.png)
 
 
-
-*  操作畫面：
+  *  Operating screen:
 ![](https://i.imgur.com/tCDafPn.png)
 
 
-
-*  透過W與S鍵可以操作勾選位置
-*  透過enter可以開始輸入以及確認輸入
-*  完成輸入後選到LOGIN的地方按enter可以開始登入
-*  顯示範例：
+  *  You can operate the selection position with W and S keys
+  *  You can start typing and confirm input through enter
+  *  After completing the input, select LOGIN and press enter to start login
+  *  Display example:
 ![](https://i.imgur.com/TuJsSI7.png)
 
 
-*  選擇LOGOUT可以登出帳號
-*  選擇EXIT可以結束程式
+  *  Select LOGOUT to log out the account
+  *  Select EXIT to end the program
 
 ---
 
 ## Server
 
-1. 執行環境：Ubuntu(Linux) 18.x
+1. Execution environment: Ubuntu(Linux) 18.x
 > $ ./server <port_num>
 >
-2. 程式語言：c++
-3. 需求檔案：server 執行檔
-4. 編譯方式：
-*  先確認當前目錄有：main.cpp、server.cpp、server.h、ui.cpp、threadpool.h、Makefile這六個檔案
-*  確認環境位於Ubuntu(Linux) 18.x下
-*  執行：
+2. Programming language: c++
+3. Required files: server executable file
+4. Compilation method:
+  *  First, make sure that the current directory contains: main.cpp, server.cpp, server.h, ui.cpp, threadpool.h, Makefile these six files
+  *  Ensure the environment is in Ubuntu (Linux) 18.x
+  *  Execute:
 > $ make all
 >
 ![](https://i.imgur.com/LRlJPnR.png)
 
 
-5. 執行過程：
-*  執行：假設port設為5000
+5. Execution process:
+  *  Execution: assuming port is set to 5000
 > $ ./server 5000
 >
 ![](https://i.imgur.com/Y83RL28.png)
 
 
-*  操作畫面：
-![](https://i.imgur.com/cd9czFj.png)
-
-*  Account List下會列出已註冊的名單
-*  Online List會列出目前在線者的名單
-*  Server Log下會顯示過去Server的提示訊息
-*  顯示範例：
+  *  Operating screen:
+  ![](https://i.imgur.com/cd9czFj.png)
+  
+  *  The registered list will be listed under Account List
+  *  The current online list will be listed under Online List
+  *  The past Server prompt messages will be displayed under Server Log
+  *  Display example:
 ![](https://i.imgur.com/dhiM50p.png)
 
-6. 互動訊息格式：與Programming Assignment說明文件相同
-
+6. Interaction message format: same as in the Programming Assignment explanation document
