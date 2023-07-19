@@ -1,4 +1,5 @@
-# Computer Networks Programming Assignment
+# Exeprimental Multi Threaded Server in C++
+2019 Computer Networks Programming Assignment
 ## Client
 1. 執行環境：Ubuntu(Linux) 18.x
 > $ ./client
